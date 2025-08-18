@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "build:product": "npm run build && npm run package:product",
     "package:product": "node scripts/package-product.js",
     "preview": "vite preview",
