@@ -6,8 +6,10 @@ import { WeeklyReflection } from "./components/WeeklyReflection";
 import { PhaseGuide } from "./components/PhaseGuide";
 import { HabitTracker } from "./components/HabitTracker";
 import { MoodBoards } from "./components/MoodBoards";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
+// App.tsx
+import { Tabs, TabsContent, TabsList, TabsTrigger, Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "./components/ui";
+
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("cover");
